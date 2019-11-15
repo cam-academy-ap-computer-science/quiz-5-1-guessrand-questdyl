@@ -2,14 +2,14 @@ import java.util.*;
 public class GuessRand {
 
 	public static void main(String[] args) {
+		System.out.print("Test 1  ");
 		int rand = 0;
 		boolean success = false;
 		// Instantiate (create) a new Random() object 'r'
 		Random r = new Random();
 		
 		rand = r.nextInt(100) + 1;
-		
-		while (success = false) {
+		while (success == false) {
 			int guess = 0;
 			// Instantiate a new Scanner 'console'
 			Scanner console = new Scanner(System.in);
